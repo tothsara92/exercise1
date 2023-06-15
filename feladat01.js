@@ -1,4 +1,4 @@
-function feladat01(colors) {
+export function feladat01(colors) {
   let length = colors.length;
 
   if (length === 0 || length === 1) {
@@ -17,6 +17,6 @@ function feladat01(colors) {
     }
     count += (x/y);
   }
-  
+
   return count;
 }
